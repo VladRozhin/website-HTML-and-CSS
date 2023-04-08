@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-header {
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid #e7e7e7;
+    align-items: center;
+    height: 80px;
+}
+.container-header li {
+    padding: 20px 0;
+    list-style-position: inside;
+    list-style-type: none;
+}
+.menu-and-name {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu-and-name h2 {
+    padding: 20px 0;
+}
+.menu-and-name a {
+    color: black;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    /* gap: 30px; */
+    height: 80px;
+    align-items: center;
+}
+.menu li {
+    padding: 30px 17px;
+}
+.menu li:hover {
+    background-color: rgba(221, 221, 221, 0.382);
+    cursor: pointer;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.social-networks-and-login {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: end;  
+    gap: 10px;  
+}
+.button-login {
+    padding: 5px 30px;
+    border: 2px solid #e7e7e7;
+    color: #707070;
+    box-shadow: 1px 2px 5px 2px rgb(200, 199, 199);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-login:hover {
+    transform: scale(1.1,1.1);
+}
+.container-login select {
+    border: none;
+    padding: 0;
+}
+.social-networks {
+    display:flex;
+    gap: 30px;
+}
+.social-networks a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.twitter {
+    background-image: url('../image/twitter.png');
+}
+.twitter:hover {
+    background-image: url('../image/twitterhover.png');
+}
+.f-b {
+    background-image: url('../image/facebook.png');
+}
+.f-b:hover {
+    background-image: url('../image/facebookhover.png');
+}
+.inst {
+    background-image: url('../image/instagram.png');
+}
+.inst:hover {
+    background-image: url('../image/instagramhover.png');
+}
+.ytube {
+    background-image: url('../image/youtube.png');
+}
+.ytube:hover {
+    background-image: url('../image/youtubehover.png');
+}
+.gmail {
+    background-image: url('../image/gmail.png');
+}
+.gmail:hover {
+    background-image: url('../image/gmailhover.png');
+}
+.container-image {
+    display: none;
+}
+.container-image img {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,131 @@
+.gallery {
+    text-align: center;
+}
+.gallery h3 {
+    margin: 50px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.container-picture {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* .container-picture::before {
+    content: url('../image/m_left-arrow1.png');
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    top: 50%;
+    z-index: 1;
+    padding-left: 10px;
+    transform: translate(0%,-50%);
+}
+.container-picture:hover::before {
+    display: flex;
+}
+.container-picture::after {
+    content: url('../image/m_right-arrow1.png');
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    top: 50%;
+    right: 0%;
+    z-index: 1;
+    padding-right: 10px;
+    transform: translate(0%,-50%);
+}
+.container-picture:hover::after {
+    display: flex;
+} */
+
+.button-left {
+    position: absolute;
+    display: none;
+    align-items: center;
+    height: 100%;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    border: none;
+    padding: 0 5px;
+    transform: translate(0%,-50%);
+}
+.container-picture:hover .button-left{
+    display: flex;
+}
+.button-left:hover {
+    background-color: rgba(0, 0, 0, 0.332);
+}
+.button-right {
+    position: absolute;
+    display: none;
+    align-items: center;
+    height: 100%;
+    top: 50%;
+    border: none;
+    right: 0%;
+    z-index: 1;
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, 0);
+    transform: translate(0%,-50%);
+}
+.container-picture:hover .button-right{
+    display: flex;
+} 
+.button-right:hover {
+    background-color: rgba(0, 0, 0, 0.332);
+}
+
+.block-picture {
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+}
+.block-picture img {
+    width: 100%;
+    height: 100%;
+}
+.block-text {
+    display: none;
+    height: 300px;
+    padding: 50px;
+    text-align: justify;
+    gap: 40px;
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.332);
+}
+.block-text p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.block-text-button {
+    display: flex;
+    justify-content: center;
+}
+.block-text-button button {
+    background-color: rgba(0, 0, 0, 0.332);
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+}
+.block-text-button button:hover {
+    transform: scale(1.1,1.1);
+}
+.block-picture:hover .block-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* z-index: 2; */
+}
+

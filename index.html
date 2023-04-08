@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css/header.css">
+    <link rel="stylesheet" href="main.css/section-greeting.css">
+    <link rel="stylesheet" href="main.css/section-gallery.css">
+    <link rel="stylesheet" href="main.css/features.css">
+    <link rel="stylesheet" href="main.css/form-contacts.css">
+    <link rel="stylesheet" href="main.css/footer.css">
+    <link rel="stylesheet" href="main.css/media.css">
+    <link rel="stylesheet" href="main.css/menu-bottom.css">
+    <link rel="stylesheet" href="main.css/logination.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="container-header">
+        <nav class="menu-and-name">
+            <a href="#"><h2>TOUR-GIUDE</h2></a>
+            <ul class="menu">
+                <li><a href="#">Stories</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Write to us</a></li>
+            </ul>
+        </nav>
+        <div class="social-networks-and-login">
+            <nav class="container-social-networks">
+                <ul class="social-networks">
+                    <li><a class="twitter" href="#"></a></li>
+                    <li><a class="f-b" href="#"></a></li>
+                    <li><a class="inst" href="#"></a></li>
+                    <li><a class="ytube" href="#"></a></li>
+                    <li><a class="gmail" href="#"></a></li>
+                </ul>
+            </nav>
+            <div class="container-login">
+                <button class="button-login" onclick="mylg()">
+                    Login
+                </button>
+                <select name="language" id="">
+                    <option value="En">En</option>
+                    <option value="Ru">Ru</option>
+                </select>
+            </div>
+        </div>
+        <div class="container-image">
+            <a href="#"><img src="./image/threebars.png" alt="threebars"></a>
+        </div>
+    </header>
+    <main>
+        <section id="lg" class="logination">
+            <form class="register" action="">
+                <h2>Registration</h2>
+                <p>Mail:</p>
+                <input type="email" name="email" placeholder="Enter Email" required>
+                <p>Name:</p>
+                <input type="text" name="login" placeholder="Enter Username" required>
+                <p>Password</p>
+                <input id="MyPassword" type="password" name="Password" placeholder="Enter password" required>
+                <input type="password" placeholder="Confirm password" required>
+                <label class="register-checkbox">
+                    <input type="checkbox" name="ShowPassword" onclick="myPass()">Show password
+                </label>
+                <div class="register-button change"><button value="register">Register</button></div>
+            </form>
+        </section>
+        <section class="menu-bottom none">
+            <a class="menu-icon" href="#"><img src="./image/home3.png" alt="home"></a>
+            <a class="menu-icon" href="#"><img src="./image/news.png" alt="news"></a>
+            <a class="menu-icon" href="#"><img src="./image/chat1.png" alt="chat"></a>
+            <a class="menu-icon" href="#"><img src="./image/two-person1.jpg" alt="two-person"></a>
+            <a class="menu-icon" href="#"><img src="./image/person2.png" alt="person"></a>
+        </section>
+
+
+        <section class="greeting">
+            <div class="greeting-block reverse">
+                <div class="block-one">
+                    <div class="block-travel">
+                        <h3>Let,s hit the road</h3>
+            
+                        <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea and discussing mysterious and intriguing stories is an incredible pleasure that can be shared with friends.
+                        <span class="travel-size-text">Travel more often and spend time with loved ones!</span>
+                        </p>
+                        <div class="container-button"><button onclick="mylg()">START</button></div>
+                    </div>
+                </div>
+                <div class="block-two">
+                    <img src="./image/jungle.jpg" alt="campfire">
+                </div>
+            </div>
+            <div class="greeting-block">
+                <div class="block-three">
+                    <img src="./image/campfire.jpg" alt="campfire">
+                </div>
+                <div class="block-four">
+                    <div class="block-travel">
+                        <h3>Story</h3>
+                        <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea and discussing mysterious and intriguing stories is an incredible pleasure that can be shared with friends.</p>
+                        <div class="container-button"><button onclick="mylg()">MORE</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="greeting-block reverse">
+                <div class="block-five">
+                    <div class="block-travel">
+                        <h3>Story</h3>
+                        <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea and discussing mysterious and intriguing stories is an incredible pleasure that can be shared with friends.</p>
+                        <div class="container-button"><button onclick="mylg()">MORE</button></div>
+                    </div>
+                </div>
+                <div class="block-six">
+                    <img src="./image/friends.jpg" alt="campfire">
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <div class="container-picture">
+                <div class="block-picture">
+                    <div class="block-text">
+                        <h4>Title</h4>
+                        <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea and discussing mysterious and intriguing stories is an </p>
+                        <div class="block-text-button"><button onclick="mylg()">MORE</button></div>                   
+                    </div>
+                    <img src="./image/lake.jpg" alt="">
+                </div>
+                <div class="block-picture picture-two">
+                    <div class="block-text">
+                        <h4>Title</h4>
+                        <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea and discussing mysterious and intriguing stories is an </p>
+                        <div class="block-text-button"><button onclick="mylg()">MORE</button></div>                   
+                    </div>
+                    <img src="./image/flowers.jpg" alt="">
+                </div>
+                <div class="block-picture picture-one">
+                    <div class="block-text">
+                        <h4>Title</h4>
+                        <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea and discussing mysterious and intriguing stories is an </p>
+                        <div class="block-text-button"><button onclick="mylg()">MORE</button></div>
+                    </div>
+                    <img src="./image/waterfall.jpeg" alt="">
+                </div>  
+                <div>
+                    <button class="button-left"><img src="./image/m_left-arrow1.png" alt=""></button>
+                    <button class="button-right"><img src="./image/m_right-arrow1.png" alt=""></button>
+                </div> 
+            </div> 
+        </section>
+        <section class="features">
+            <h3>Features</h3>
+            <div class="container-features">
+                <div class="block-features">
+                    <img src="./image/airplane.png" alt="">
+                    <h4>One</h4>
+                    <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea </p>
+                </div>
+                <div class="block-features">
+                    <img src="./image/map_marker.png" alt="">
+                    <h4>Two</h4>
+                    <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea </p>
+                </div>
+                <div class="block-features">
+                    <img src="./image/movie.png" alt="">
+                    <h4>Three</h4>
+                    <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea </p>
+                </div>
+                <div class="block-features">
+                    <img src="./image/alarm_clock.png" alt="">
+                    <h4>Four</h4>
+                    <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea </p>
+                </div>
+                <div class="block-features">
+                    <img src="./image/face.png" alt="">
+                    <h4>Five</h4>
+                    <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea </p>
+                </div>
+                <div class="block-features border-six">
+                    <img src="./image/genius.png" alt="">
+                    <h4>Six</h4>
+                    <p>We all love to travel, but the most wonderful moments in life are when we travel with people close to us. Sitting around a campfire at night, wrapped in a blanket, drinking hot tea </p>
+                </div>
+            </div>
+        </section>
+        <section class="form-contacts">
+            <h3>Write to Us</h3>
+            <form class="container-form" action="">
+                <div class="container-logination">
+                    <div class="container-logination-one">
+                        <p>Name:</p>
+                        <input type="text" name="userName" placeholder="Username" required>
+                    </div>
+                    <div class="container-logination-two">
+                        <p>Email:</p>
+                        <input type="email" name="emailAddress" required>
+                    </div>
+                    <div class="container-logination-three">
+                        <p>Phone:</p>
+                        <input type="number" name="phoneContact" placeholder="+7" required>
+                    </div>
+                </div>
+                <div class="container-contact">
+                    <span>Contact me via:</span>
+                    <div class="block-contact"> 
+                        <label>
+                            <input type="radio" name="contacts" value="email">
+                            Email
+                        </label>
+                        <label>
+                            <input type="radio" name="contacts" value="phone">
+                            Phone
+                        </label>
+                        <label>
+                            <input type="radio" name="contacts" value="telegram">
+                            Telegram
+                        </label>
+                    </div>
+                </div>
+                <div class="container-topic">
+                    <p>Topic:</p>
+                    <select name="topic" id="">
+                        <option value="Post my story">Post my story</option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="container-message">
+                    <p>Message:</p>
+                    <textarea name="message" id="chat" cols="30" rows="10"></textarea>
+                </div>
+                <div class="container-agree">
+                    <label>
+                        <input type="checkbox" name="agree" required>
+                        I am a human
+                    </label>
+                    <input type="submit" value="SEND">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="container-footer">
+        <nav>
+            <ul class="social-networks-footer">
+                <li class="block-social"><a class="twitter-f" href="#"></a></li>
+                <li class="block-social"><a class="f-b-f" href="#"></a></li>
+                <li class="block-social"><a class="inst-f" href="#"></a></li>
+                <li class="block-social"><a class="ytube-f" href="#"></a></li>
+                <li class="block-social"><a class="gmail-f" href="#"></a></li>
+            </ul>
+        </nav>
+        <p>&#169; UNTITLED 2019</p>
+    </footer>
+</body>
+</html>

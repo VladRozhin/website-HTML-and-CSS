@@ -1,0 +1,132 @@
+@media screen and (max-width:1000px) {
+    .container-header {
+        padding: 0;
+    }
+    .social-networks {
+        gap: 10px;
+    }
+    .menu li {
+        padding: 30px 10px;
+    }
+    #lg {
+        width: 40%;
+        padding: 50px 0;
+        left: 30%;
+    }
+}
+@media screen and (max-width:850px) {
+    .container-social-networks {
+        display: none;
+    }
+    .container-header {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .block-two {
+       min-height: 300px;
+    }
+    .block-three {
+        width: 50%;
+    }
+    .block-four {
+        width: 50%;
+    }
+    .block-five {
+        width: 50%;
+    }
+    .block-six {
+        width: 50%;
+    }
+    .greeting-block p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+    }
+    .container-picture {
+        grid-template-columns: 1fr 1fr;
+    }
+    .picture-one {
+        display: none;
+    }
+    .container-features {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:600px) {
+    .menu {
+        display: none;
+    }
+    .container-image {
+        display: flex;
+    }
+    .container-header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .container-login {
+        display: none;
+    }
+    #lg {
+        width: 50%;
+        left: 25%;
+    }
+    .register-button.change {
+        justify-content: center;
+    }
+    .menu-bottom.none {
+        display: flex;
+    }
+    .greeting-block {
+        flex-direction: column;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .block-one, .block-two, .block-three, .block-four, .block-five, .block-six {
+        width: 100%;
+    }
+    .block-travel {
+        padding: 50px 0;
+    }
+    .picture-two {
+        display: none;
+    }
+    .container-picture{
+        grid-template-columns: 100%;
+    }
+    .block-text {
+        padding: 50px 100px;
+    }
+    .container-features {
+        grid-template-columns: 100%;
+    }
+    .block-features {
+        padding: 100px 100px;
+    }
+    .border-six {
+        border-bottom:2px solid #cecece;
+    }
+    .container-logination {
+        flex-direction: column;
+    }
+    .container-logination-two, .container-logination-one, .container-logination-three {
+        width: 100%;
+    }
+    .container-contact {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .social-networks-footer {
+        gap: 5px;
+    }
+    .container-footer p {
+        margin-bottom: 100px;
+    }
+    .block-two {
+        height: 100%;
+    }
+
+}

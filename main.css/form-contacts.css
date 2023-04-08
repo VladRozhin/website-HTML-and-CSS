@@ -1,0 +1,90 @@
+.form-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #e7e7e7 ;
+}
+.form-contacts input, select {
+    padding: 8px;
+    border: 1px solid #dcdada ;
+    border-radius: 3px;
+    outline: none;
+}
+.form-contacts p {
+    padding-bottom: 10px;
+}
+.form-contacts h3 {
+    margin: 50px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.container-form {
+    padding: 30px 0 50px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-logination-one {
+    width: calc(33.3% - 20px);
+}
+.container-logination-two {
+    width: calc(33.3% - 20px);
+}
+.container-logination-three {
+    width: 33.3%;
+}
+.container-logination {
+    display: flex;
+    gap: 20px;
+}
+.container-logination div {
+    display: flex;
+    flex-direction: column;
+}
+.container-contact {
+    display: flex;
+    gap: 20px;
+}
+.block-contact {
+    display: flex;
+    gap: 20px;
+}
+.container-topic {
+    display: flex;
+    flex-direction: column;
+}
+.container-message {
+    display: flex;
+    flex-direction: column;
+}
+.container-message textarea {
+    border: 1px solid #dcdada ;
+    border-radius: 3px;
+    outline: none;
+}
+.container-agree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-agree input {
+    color: #a5a8ae;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 2px rgb(200, 199, 199);
+    cursor: pointer;
+}
+.container-agree input:hover {
+    transform: scale(1.1,1.1);
+}
+.container-agree label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#chat {
+    resize: none;
+}

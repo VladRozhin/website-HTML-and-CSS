@@ -1,0 +1,63 @@
+.logination {
+    display: none;
+    justify-content: center;
+    width: 30%;
+    /* height: 90%; */
+    padding: 100px 0;
+    background-color: black;
+    position: fixed;
+    left: 35%;
+    top: 5%;
+    z-index: 3;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgb(12, 57, 88);
+    background-image: url('../image/wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100%;
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+}
+.register-button {
+    display: flex;
+    justify-content: end;
+}
+.register-button button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid #e7e7e7;
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px rgb(64, 132, 222);
+    cursor: pointer;
+}
+.register-button button:hover {
+    transform: scale(1.1,1.1);
+}
+.register h2{
+    font-size: 28px;
+    font-weight: normal;
+    width: 100%;
+    color: black;
+}
+.register input {
+    border:2px solid rgb(78, 169, 218);
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+.register-checkbox {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.register-checkbox input {
+    padding: 0;
+    width: auto;
+}

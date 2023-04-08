@@ -1,0 +1,49 @@
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.container-footer li {
+    list-style-position: inside;
+    list-style-type: none;
+    border: 3px solid #a5a5a5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-networks-footer {
+    display:flex;
+    gap: 30px;
+}
+.social-networks-footer a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.twitter-f {
+    background-image: url('../image/twitter.png');
+}
+.block-social:hover {
+    background-color: #e7e7e7;
+}
+.f-b-f {
+    background-image: url('../image/facebook.png');
+}
+.inst-f {
+    background-image: url('../image/instagram.png');
+}
+.ytube-f {
+    background-image: url('../image/youtube.png');
+}
+.gmail-f {
+    background-image: url('../image/gmail.png');
+}
